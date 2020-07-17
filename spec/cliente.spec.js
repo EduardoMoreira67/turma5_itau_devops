@@ -2,7 +2,7 @@ const Cliente = require('../models/cliente');
 
 test('Testando se o objeto cliente tem a propriedade nome', () => {
     let cliente = new Cliente()
-    cliente.nome = "Erick"
+    cliente.nome = "Eduardo"
     expect(cliente.nome).not.toBeUndefined();
 });
 
